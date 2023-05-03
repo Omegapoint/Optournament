@@ -1,0 +1,34 @@
+{
+    "response": [
+        {
+            "player1": "Wångis",
+            "player2": "Jakke",
+            "score": "1-1"
+        },
+        {
+            "player1": "Wångis",
+            "player2": "Simone",
+            "score": "1-0"
+        },
+        {
+            "player1": "Wångis",
+            "player2": "Linné",
+            "score": "1-2"
+        },
+        {
+            "player1": "Wångis",
+            "player2": "Dess",
+            "score": "1-10"
+        },
+        {
+            "player1": "Wångis",
+            "player2": "Crisse",
+            "score": "0-0"
+        },
+        {
+            "player1": "Wångis",
+            "player2": "Nisse",
+            "score": "10-0"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+
+table {
+    background-color: #ffffff;
+    display: grid;
+    border-radius: 3px;
+  }
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+tr:nth-child(odd) {
+    background-color: #d5d3d3;
+  }
+
+  tr:hover{
+    background-color: #b9b7b7; 
+  }
