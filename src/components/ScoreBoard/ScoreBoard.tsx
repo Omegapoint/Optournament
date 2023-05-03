@@ -1,5 +1,5 @@
 import "./ScoreBoard.css";
-import jsonObject from "./scoreResponse.json";
+import jsonObject from "../../scoreResponse.json";
 
 interface ScoreItem {
   player1: string;

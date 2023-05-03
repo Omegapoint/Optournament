@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  background: #d8a48f;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px;
+  font-size: 2em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: grey;
+}
+
+.navbar a:hover {
+  color: rgb(77, 75, 75);
+}
