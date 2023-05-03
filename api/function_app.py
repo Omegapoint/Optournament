@@ -6,3 +6,4 @@ app = func.FunctionApp()
 @app.route(route="hello") # HTTP Trigger
 def test_function(req: func.HttpRequest) -> func.HttpResponse:
     return func.HttpResponse("HttpTrigger1 function processed a request!!!")
+
