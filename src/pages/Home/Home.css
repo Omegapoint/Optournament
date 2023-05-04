@@ -1,0 +1,55 @@
+.wrapper {
+  display: grid;
+  gap: 12px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 16px;
+  box-shadow: 
+  0 1px 1px hsl(0deg 0% 0% / 0.075),
+  0 2px 2px hsl(0deg 0% 0% / 0.075),
+  0 4px 4px hsl(0deg 0% 0% / 0.075),
+  0 8px 8px hsl(0deg 0% 0% / 0.075),
+  0 16px 16px hsl(0deg 0% 0% / 0.075)
+;
+  padding: 8px;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  display: block;
+  color: white
+}
+
+.title h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titleBackground {
+  border-radius: 16px;
+  display: block;
+  width:100%;
+  height:50%;
+  filter: brightness(25%);
+}
+
+img {
+  object-fit: cover;
+}
+
+.button {    
+    padding: 4px;
+    margin-bottom: 10px;
+}
