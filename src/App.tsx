@@ -1,9 +1,6 @@
-import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
-
-import Home from "./Home";
+import Home from "./pages/Home/Home";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +17,7 @@ const router = createBrowserRouter([
     path: "/pool",
     element: <Home />,
     children: [],
-  }
+  },
 ]);
 
 function App() {

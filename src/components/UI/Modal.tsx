@@ -1,16 +1,33 @@
-import exp from "constants";
-import React from "react";
+import { ReactNode } from "react";
 import "./Modal.css";
 
-const Modal = () => {
+interface ModalType {
+  children?: ReactNode;
+  isOpen: boolean;
+  toggle: () => void;
+}
+
+function Modal(props: ModalType) {
   return (
-    <div className="modal">
-      <div className="modal-content">
-        <h1>Modal Title</h1>
-        <p>Content</p>
-      </div>
-    </div>
+    <>
+      {props.isOpen && (
+        <div className="modal" onClick={props.toggle}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <h1>Enter new score</h1>
+            </div>
+            <div className="modal-body">{props.children}</div>
+            <div className="modal-footer">
+              <button type="button" onClick={props.toggle}>
+                Cancel
+              </button>
+              <button type="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
-};
+}
 
 export default Modal;
